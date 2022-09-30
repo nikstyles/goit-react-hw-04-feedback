@@ -1,0 +1,70 @@
+.statistic__card {
+  margin: 0 15px 20px;
+  max-width: 100%;
+  /* margin: 0 auto; */
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 15px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.statistic__option {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+
+  margin-bottom: 10px;
+}
+
+.statistic__item {
+  min-width: calc((100% / 3) - 20px);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 5px;
+  font-size: 14px;
+}
+
+.statistic__item_number {
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+.statistic__good {
+  border: 2px solid #a3faa5;
+}
+
+.statistic__neutral {
+  border: 2px solid #ffd256;
+}
+
+.statistic__bad {
+  border: 2px solid #ff929b;
+}
+
+.statistic__total {
+  display: flex;
+  justify-content: center;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  border-radius: 10px;
+  padding: 10px 0;
+  color: #fff;
+  background-color: #adadad;
+}
+
+.statistic__positivePercentage {
+  display: flex;
+  justify-content: center;
+
+  font-weight: 300;
+  margin-top: 15px;
+  color: #000000;
+}
